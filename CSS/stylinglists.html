@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Lists</title>
+        <style>
+            ul.list1{
+                /* list-style: square; */
+                list-style-image: url(./images/pobrane.png);
+            }
+
+            ul.list2{
+                list-style: none;
+                padding: 0;
+                margin: 0;               
+            }
+
+            ul.list2 li{
+                background-image: url(./images/pobrane.png);
+                background-repeat: no-repeat;
+                background-position: 0px center;
+                padding-left: 30px;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <p>List of European capitals</p>
+        <ul class="list1">
+            <li>Paris</li>
+            <li>London</li>
+            <li>Madrid</li>
+        </ul>
+
+        <ul class="list2">
+            <li>Paris</li>
+            <li>London</li>
+            <li>Madrid</li>
+        </ul>
+    </body>
+
+</html>
